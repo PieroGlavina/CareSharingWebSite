@@ -1,15 +1,21 @@
 import { useEffect, useRef } from 'react';
+import {useMediaQuery} from "react-responsive";
+
 
 const ParticleNetwork = ({ width, height }) => {
     const canvasRef = useRef(null);
     const animationRef = useRef(null);
 
+    const isMobile = useMediaQuery({ query: "(max-width: 1024px)" });
+
+
     useEffect(() => {
         const canvas = canvasRef.current;
         const ctx = canvas.getContext('2d');
         const particles = [];
-        const particleCount = 60;
+        const particleCount = isMobile ? 20 : 60;
         const maxDistance = 160;
+        console.log(particleCount)
 
         for (let i = 0; i < particleCount; i++) {
             particles.push({

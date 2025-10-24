@@ -20,11 +20,6 @@ const Footer = () => {
                         ))}
                     </div>
 
-                    <div className="text-white flex flex-col ml-5 max-md:ml-0 max-md:items-center text-sm">
-                        <p className="font-semibold">RESTIAMO IN CONTATTO</p>
-                        <a href="mailto:name@email.com">name@email.com</a>
-                        <a href="mailto:name@email.com">name@email.com</a>
-                    </div>
                 </div>
 
                 <div className="bg-zinc-500 my-5 h-[1px] w-full" />

@@ -49,94 +49,51 @@ export const valuesDescription = "Lorem ipsum dolor sit amet, consectetur adipis
 export const ourValues = [
     {
         id:1,
-        title: "CONSAPEVOLEZZA",
-        description: " CareSharing ti rende consapevole del bisogno reale nel mondo e ti educa a trasformare la consapevolezza in azione concreta."
+        title: "CURA",
+        description: "Significa attenzione autentica alle persone, ascolto dei loro bisogni e presenza responsabile e delicata nel farsi carico delle fragilità, oltre ogni numero o procedura."
     },
 
     {
         id:2,
         title: "RELAZIONE",
-        description: "CareSharing crea legami autentici: incontri chi aiuti e collabori con altri volontari, riscoprendo relazioni vere fondate sul Bene."
+        description: "La qualità della vita nasce dalle relazioni: la cura autentica si fonda su fiducia e reciprocità, costruendo ponti tra persone, famiglie, comunità e istituzioni per un sostegno duraturo."
     },
 
     {
         id:3,
         title: "SPERANZA",
-        description: "CareSharing nasce dalla speranza che il Bene è possibile. Condividiamo questa speranza con te, per cambiare il mondo insieme."
+        description: "La speranza è la forza che apre possibilità e alimenta il desiderio di futuro in chi rischia di perderlo."
     },
 
     {
         id:4,
-        title: "COMUNITÀ",
-        description: "CareSharing ti aiuta a sentirti parte di un’unica grande comunità fatta di volontari, realtà solidali persone aiutate."
+        title: "INNOVAZIONE",
+        description: "Cercare soluzioni nuove, semplici e accessibili per rendere la cura più vicina e immediata, usando innovazione, tecnologia e creatività per migliorare la vita quotidiana di chi dà e di chi riceve."
     },
 
     {
         id:5,
-        title: "TESTIMONIANZA",
-        description: "CareSharing ti ispira a diventare testimone del Bene: attraverso il tuo esempio, puoi contagiare e far esplodere nuovi semi di speranza."
+        title: "UNICITÀ",
+        description: "Ogni persona è unica, con la propria storia, limiti e risorse: valorizzarne l’unicità significa rifiutare modelli standard e promuovere percorsi personalizzati."
     },
 ]
 
-export const logoDescription = "Il nostro logo racconta chi siamo." + "Tre figure intrecciate formano un albero: il giovane volontario, la realtà di volontariato e chi riceve aiuto." +
-    "Uniti da un’unica radice comune, mostrano che il Bene nasce solo dalla collaborazione di tutti." + "L’albero, simbolo di speranza, rigenerazione e crescita, fiorisce attraverso cinque frutti: i nostri valori\n" +
-    "vissuti." + "Con CareSharing, la comunità non è un’idea astratta: è vita, dono reciproco, forza che genera nuovo Bene."
+export const logoDescription = "Il nostro logo racconta chi siamo: tre figure intrecciate formano un albero, simbolo di speranza e collaborazione, che fiorisce nei cinque frutti dei nostri valori. Con CareSharing, la comunità è vita, dono reciproco e forza che genera Bene."
 
 export const footerLinks = [
     {
         id:1,
         title: "Instagram",
         src: whiteInstagram,
-        href: "https://www.instagram.com/"
-    },
-
-    {
-        id:2,
-        title: "Tiktok",
-        src: whiteTiktok,
-        href: "https://www.tiktok.com/"
-    },
-
-    {
-        id:3,
-        title: "Facebook",
-        src: whiteFacebook,
-        href: "https://www.facebook.com/"
+        href: "https://www.instagram.com/caresharing_it/"
     },
 
     {
         id:4,
         title: "Email",
         src: whiteMail,
-        href: "https://www.gmail.com/"
+        href: "info@caresharingtrieste.it"
     }
 
-];
+]
 
-export const cards = [
-    {
-        url: instagramLogo,
-        title: "Title 1",
-        id: 1,
-    },
-    {
-        url: instagramLogo,
-        title: "Title 2",
-        id: 2,
-    },
-    {
-        url: instagramLogo,
-        title: "Title 3",
-        id: 3,
-    },
-    {
-        url: instagramLogo,
-        title: "Title 4",
-        id: 4,
-    },
-    {
-        url: instagramLogo,
-        title: "Title 5",
-        id: 5,
-    },
-];

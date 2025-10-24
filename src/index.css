@@ -11,9 +11,6 @@
     src: url("./assets/fonts/Preuksa_SemiBold.otf");
 }
 
-
-
-
 @layer base {
     *, *::before, *::after {
         box-sizing: border-box;
@@ -73,30 +70,34 @@ body{
     box-shadow: 16px 0 40px #e4e4e4;
 }
 
-.block-container:hover > .btn-back {
-    transform: translateZ(20px) rotateZ(15deg) rotateX(-20deg) rotateY(-20deg);
-}
+    .block-container:hover > .btn-back {
+        transform: translateZ(20px) rotateZ(15deg) rotateX(-20deg) rotateY(-20deg);
+    }
 
-.block-container:hover > .btn-front {
-    transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
-}
+    .block-container:hover > .btn-front {
+        transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
+    }
 
-.block-container:hover > .btn-back {
-    transform: translateZ(20px) rotateZ(15deg) rotateX(-20deg) rotateY(-20deg);
-}
+    .block-container:hover > .btn-back {
+        transform: translateZ(20px) rotateZ(15deg) rotateX(-20deg) rotateY(-20deg);
+    }
 
-.block-container:hover > .btn-front {
-    transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
-}
+    .block-container:hover > .btn-front {
+        transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
+    }
 
-.head-text {
-    @apply xl:text-[10rem] text-[6rem] xl:leading-[11rem] leading-[7rem] font-black text-black;
-}
+    .head-text {
+        @apply xl:text-[10rem] text-[6rem] xl:leading-[11rem] leading-[7rem] font-black text-black;
+    }
 
-.input {
-    @apply bg-white border border-gray-200 text-gray-900 text-sm rounded-lg block w-full p-2.5 mt-2.5 font-normal shadow-2xl;
-}
+    .input {
+        @apply bg-white border border-gray-200 text-gray-900 text-sm rounded-lg block w-full p-2.5 mt-2.5 font-normal shadow-2xl;
+    }
 
-.btn {
-    @apply text-white bg-custom-blue focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center;
-}
+    .btn {
+        @apply text-white bg-custom-blue focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center;
+    }
+
+    .logo-text{
+        @apply text-custom-blue text-3xl font-preuksa_semibold ml-5 max-md:text-lg hover:text-gray-600 transition-all;
+    }

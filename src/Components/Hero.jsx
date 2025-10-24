@@ -22,23 +22,23 @@ const Hero = () => {
                     <div id="cta" className="flex flex-col sm:flex-row items-center justify-center gap-5 opacity-0 mt-5">
                         <a href="#values">
                             <button
-                                className="cursor-pointer text-black bg-white px-6 py-3 rounded-full w-64 max-sm:w-60 text-sm sm:text-base hover:text-custom-blue transition-all font-preuksa_regular">
-                                Scopri i nostri valori
+                                className="font-bold cursor-pointer text-black bg-white px-6 py-3 rounded-full w-64 max-sm:w-60 text-sm sm:text-base hover:text-custom-blue transition-all font-preuksa_regular hover:drop-shadow-2xl">
+                                 I nostri valori
                             </button>
                         </a>
 
                         <a href="#mission">
                             <button
-                                className="cursor-pointer text-black bg-white px-6 py-3 rounded-full w-64 max-sm:w-60 text-sm sm:text-base hover:text-custom-blue transition-all font-preuksa_regular">
-                                Scopri la nostra missione
+                                className="font-bold cursor-pointer text-black bg-white px-6 py-3 rounded-full w-64 max-sm:w-60 text-sm sm:text-base hover:text-custom-blue transition-all font-preuksa_regular hover:drop-shadow-2xl">
+                                 La nostra missione
                             </button>
                         </a>
                     </div>
                 </div>
 
                 <div className="w-full lg:w-[100%] mb-10 lg:mb-0 lg:ml-10">
-                    <video className="pointer-events-none w-full h-auto rounded-lg" autoPlay muted loop playsInline
-                           key={mainVideo}>
+                    <video className="pointer-events-none w-full h-auto rounded-lg" autoPlay muted loop playsInline key={mainVideo}>
+                        <source src="src/assets/videos/Timeline 1.mov" type='video/mp4; codecs="hvc1"' />
                         <source src={mainVideo} type="video/webm"/>
                     </video>
                 </div>
